@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <BaseDirectory>..\..\..\Desktop</BaseDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="..\..\..\Desktop\Views\" />
+    <Folder Include="..\..\..\Desktop\Views\Home\" />
+    <Folder Include="..\..\..\Desktop\Controllers\" />
+    <Folder Include="..\..\..\Desktop\wwwroot\" />
+    <Folder Include="..\..\..\Desktop\wwwroot\Css\" />
+    <Folder Include="..\..\..\Desktop\wwwroot\Image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Desktop\Views\Home\ONEOKROCK.html" />
+    <None Include="..\..\..\Desktop\Views\Home\MYFIRSTSTORY.html" />
+    <None Include="..\..\..\Desktop\Views\Home\COLDRAIN.html" />
+    <None Include="..\..\..\Desktop\wwwroot\Image\oneokrock.png" />
+    <None Include="..\..\..\Desktop\wwwroot\Image\myfirststory.png" />
+    <None Include="..\..\..\Desktop\wwwroot\Image\coldrain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\Desktop\wwwroot\Css\Common.cs" />
+    <Compile Include="..\..\..\Desktop\Controllers\HomeController.cs" />
+  </ItemGroup>
+</Project>
